@@ -40,12 +40,12 @@ def obtener_contenido_archivos_en_subdirectorios(directorio):
 def evaluate(nombre_carpeta):
     data_vec = obtener_contenido_archivos_en_subdirectorios(nombre_carpeta)
     vectorizer = joblib.load('vectorizador_entrenado.joblib')
-    matriz_spam = vectorizer.transform(data_vec).toarray()
+    X = vectorizer.transform(data_vec).toarray()
     model = None
     with open('model.pkl', 'rb') as archivo:
         model = pickle.load(archivo)
 
-    y_pred = tf.where(model.predict(tf.transpose(tf.convert_to_tensor(matriz_spam, dtype=tf.float32))) <= 0.3, 0, 1)
+    y_pred = tf.where(model.predict(tf.transpose(tf.convert_to_tensor(X, dtype=tf.float32))) <= 0.3, 0, 1)
     tensor_np = y_pred.numpy()[0]
 
     cant_spam = np.sum(tensor_np == 1)

@@ -137,7 +137,7 @@ color: #FCFAF8;
 }</string>
        </property>
        <property name="text">
-        <string>Cantidad de Ham</string>
+        <string/>
        </property>
        <property name="alignment">
         <set>Qt::AlignCenter</set>
@@ -180,7 +180,7 @@ color: #FCFAF8;
 }</string>
        </property>
        <property name="text">
-        <string>¡El modelo se entrenó por 40,000 épocas!</string>
+        <string>¡El modelo se entrenó por 70,000 épocas!</string>
        </property>
        <property name="alignment">
         <set>Qt::AlignCenter</set>
@@ -229,6 +229,9 @@ color: #FCFAF8;
          <family>Open Sans</family>
          <pointsize>16</pointsize>
         </font>
+       </property>
+       <property name="cursor">
+        <cursorShape>PointingHandCursor</cursorShape>
        </property>
        <property name="styleSheet">
         <string notr="true">QPushButton#pushButtonSelectFiles {
@@ -280,6 +283,9 @@ color: #FCFAF8;
          <strikeout>false</strikeout>
         </font>
        </property>
+       <property name="cursor">
+        <cursorShape>PointingHandCursor</cursorShape>
+       </property>
        <property name="styleSheet">
         <string notr="true">QPushButton#pushButtonAboutUs {
 color: #E3EDF2;
@@ -316,7 +322,7 @@ color: #FCFAF8;
 }</string>
        </property>
        <property name="text">
-        <string>Cantidad de Spam</string>
+        <string/>
        </property>
        <property name="alignment">
         <set>Qt::AlignCenter</set>
@@ -332,6 +338,9 @@ color: #FCFAF8;
          <underline>false</underline>
          <strikeout>false</strikeout>
         </font>
+       </property>
+       <property name="cursor">
+        <cursorShape>PointingHandCursor</cursorShape>
        </property>
        <property name="styleSheet">
         <string notr="true">QPushButton#pushButtonGitHub {

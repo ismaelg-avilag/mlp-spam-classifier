@@ -18,15 +18,15 @@ class Ui_AboutWindow(object):
         AboutWindow.setMinimumSize(QtCore.QSize(675, 600))
         AboutWindow.setMaximumSize(QtCore.QSize(675, 600))
         AboutWindow.setStyleSheet("QDioalog {\n"
-"background: #3E7D96;\n"
+"background: #E3EDF2;\n"
 "}\n"
 "\n"
 "QWidget {\n"
-"background: #4E7D96;\n"
+"background: #E3EDF2;\n"
 "}\n"
 "\n"
 "QLabel {\n"
-"color: #FCFAF8;\n"
+"color: #4E7D96;\n"
 "}")
         self.gridLayoutWidget = QtWidgets.QWidget(AboutWindow)
         self.gridLayoutWidget.setGeometry(QtCore.QRect(10, 10, 651, 581))

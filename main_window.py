@@ -151,15 +151,15 @@ class Ui_MainWindow(object):
         self.label_9.setAlignment(QtCore.Qt.AlignCenter)
         self.label_9.setObjectName("label_9")
         self.gridLayout.addWidget(self.label_9, 10, 0, 1, 1)
-        self.pushButtonAboutUs = QtWidgets.QPushButton(self.gridLayoutWidget)
+        self.pushButtonAboutProject = QtWidgets.QPushButton(self.gridLayoutWidget)
         font = QtGui.QFont()
         font.setFamily("Open Sans")
         font.setPointSize(16)
         font.setUnderline(False)
         font.setStrikeOut(False)
-        self.pushButtonAboutUs.setFont(font)
-        self.pushButtonAboutUs.setCursor(QtGui.QCursor(QtCore.Qt.PointingHandCursor))
-        self.pushButtonAboutUs.setStyleSheet("QPushButton#pushButtonAboutUs {\n"
+        self.pushButtonAboutProject.setFont(font)
+        self.pushButtonAboutProject.setCursor(QtGui.QCursor(QtCore.Qt.PointingHandCursor))
+        self.pushButtonAboutProject.setStyleSheet("QPushButton#pushButtonAboutProject {\n"
 "color: #E3EDF2;\n"
 "background: #4E7D96;\n"
 "border: none;\n"
@@ -168,14 +168,14 @@ class Ui_MainWindow(object):
 "text-decoration: none;\n"
 "}\n"
 "\n"
-"QPushButton#pushButtonAboutUs:hover {\n"
+"QPushButton#pushButtonAboutProject:hover {\n"
 "color: #E3EDF2;\n"
 "background: #55859E;\n"
 "cursor: pointer;\n"
 "text-decoration: underline;\n"
 "}")
-        self.pushButtonAboutUs.setObjectName("pushButtonAboutUs")
-        self.gridLayout.addWidget(self.pushButtonAboutUs, 14, 0, 1, 1)
+        self.pushButtonAboutProject.setObjectName("pushButtonAboutProject")
+        self.gridLayout.addWidget(self.pushButtonAboutProject, 14, 0, 1, 1)
         self.labelAmountOfSpam = QtWidgets.QLabel(self.gridLayoutWidget)
         font = QtGui.QFont()
         font.setFamily("Open Sans")
@@ -259,7 +259,7 @@ class Ui_MainWindow(object):
         self.label_5.setText(_translate("MainWindow", "Información de la Red Neuronal"))
         self.pushButtonSelectFiles.setText(_translate("MainWindow", "Presiona para seleccionar archivos"))
         self.label_9.setText(_translate("MainWindow", "Función de activación para la capa de salida es: la función logística."))
-        self.pushButtonAboutUs.setText(_translate("MainWindow", "About This Project"))
+        self.pushButtonAboutProject.setText(_translate("MainWindow", "About This Project"))
         self.pushButtonGitHub.setText(_translate("MainWindow", "GitHub - Spam Classifier"))
         self.label_6.setText(_translate("MainWindow", "La red neuronal está compuesta por 3 capas."))
         self.label_7.setText(_translate("MainWindow", "La primera capa tiene 75,000 neuronas, la segunda 2 y la capa de salida tiene 1 neurona."))

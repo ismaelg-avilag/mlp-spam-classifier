@@ -27,15 +27,15 @@
   </property>
   <property name="styleSheet">
    <string notr="true">QDioalog {
-background: #3E7D96;
+background: #E3EDF2;
 }
 
 QWidget {
-background: #4E7D96;
+background: #E3EDF2;
 }
 
 QLabel {
-color: #FCFAF8;
+color: #4E7D96;
 }</string>
   </property>
   <widget class="QWidget" name="gridLayoutWidget">

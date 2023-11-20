@@ -274,7 +274,7 @@ color: #FCFAF8;
       </widget>
      </item>
      <item row="14" column="0">
-      <widget class="QPushButton" name="pushButtonAboutUs">
+      <widget class="QPushButton" name="pushButtonAboutProject">
        <property name="font">
         <font>
          <family>Open Sans</family>
@@ -287,7 +287,7 @@ color: #FCFAF8;
         <cursorShape>PointingHandCursor</cursorShape>
        </property>
        <property name="styleSheet">
-        <string notr="true">QPushButton#pushButtonAboutUs {
+        <string notr="true">QPushButton#pushButtonAboutProject {
 color: #E3EDF2;
 background: #4E7D96;
 border: none;
@@ -296,7 +296,7 @@ border-radius: 20px;
 text-decoration: none;
 }
 
-QPushButton#pushButtonAboutUs:hover {
+QPushButton#pushButtonAboutProject:hover {
 color: #E3EDF2;
 background: #55859E;
 cursor: pointer;

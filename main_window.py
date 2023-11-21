@@ -284,10 +284,10 @@ class Ui_MainWindow(object):
         _translate = QtCore.QCoreApplication.translate
         MainWindow.setWindowTitle(_translate("MainWindow", "Spam Classifier"))
         self.pushButtonAboutProject.setText(_translate("MainWindow", "About This Project"))
-        self.label_3.setText(_translate("MainWindow", "¡El modelo se entrenó por 70,000 épocas!"))
+        self.label_3.setText(_translate("MainWindow", "¡El modelo se entrenó por 42,000 épocas!"))
         self.label_9.setText(_translate("MainWindow", "Función de activación para la capa de salida es: la función logística."))
-        self.label_6.setText(_translate("MainWindow", "La red neuronal está compuesta por 3 capas."))
-        self.label_7.setText(_translate("MainWindow", "La primera capa tiene 75,000 neuronas, la segunda 2 y la capa de salida tiene 1 neurona."))
+        self.label_6.setText(_translate("MainWindow", "La red neuronal está compuesta por 2 capas."))
+        self.label_7.setText(_translate("MainWindow", "La primera capa tiene 3 neuronas y la capa de salida tiene 1 neurona."))
         self.label_2.setText(_translate("MainWindow", "Spam Classifier - By Ismael Avila & Oscar Beltrán © 2023"))
         self.pushButtonGitHub.setText(_translate("MainWindow", "GitHub - Spam Classifier"))
         self.label_8.setText(_translate("MainWindow", "Función de activación para las capas ocultas es: tanh."))

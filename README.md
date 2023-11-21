@@ -64,4 +64,4 @@ Ismael Avila
 Oscar Beltrán
 - Email: 
 - GitHub: [oscar-200](https://github.com/oscar-200)
-- LinkedIn: [Oscar Beltrán](https://www.linkedin.com/in/)
+- LinkedIn: [Oscar Beltran](https://www.linkedin.com/in/oscar-beltran-villegas-024508235)

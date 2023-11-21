@@ -1,11 +1,14 @@
 import sys
 from PyQt5.QtCore import QUrl
 from PyQt5.QtGui import QDesktopServices
+import tensorflow as tf
 
 from main_window import *
 from about_window import *
 from progress_bar import *
 from evaluateEmails import *
+
+tf.device('gpu')
 
 class Ui_MainWindow(QtWidgets.QMainWindow, Ui_MainWindow):
     def __init__(self, *args, **kwargs):
@@ -37,14 +40,13 @@ class Ui_MainWindow(QtWidgets.QMainWindow, Ui_MainWindow):
             self.worker_thread.finished_processing.connect(self.showResults)
             self.worker_thread.start()
 
-            self.amountOfSpam, self.amountOfHam = evaluate(directory)
-
     def update_progress_bar(self, progress):
         self.progressBar.setValue(progress)
     
-    def showResults(self):
-        self.labelAmountOfHam.setText("Los archivos procesados tienen un " + str(self.amountOfHam) + "% Ham")
-        self.labelAmountOfSpam.setText("Los archivos procesados tienen un  " +  str(self.amountOfSpam) + "% Spam")
+    def showResults(self, data):
+        self.amountOfSpam, self.amountOfHam = evaluate(data)
+        self.labelAmountOfHam.setText("Los archivos procesados tienen " + str(self.amountOfHam) + " Ham")
+        self.labelAmountOfSpam.setText("Los archivos procesados tienen " +  str(self.amountOfSpam) + " Spam")
 
 
 if __name__ == "__main__":

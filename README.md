@@ -61,7 +61,7 @@ Ismael Avila
 - GitHub: [Ismaelg-Avilag](https://github.com/ismaelg-avilag)
 - LinkedIn: [Ismaelg-Avilag](https://www.linkedin.com/in/ismaelg-avilag)
 
-- Oscar Beltrán
+Oscar Beltrán
 - Email: 
 - GitHub: [Ismaelg-Avilag](https://github.com/oscar-200)
 - LinkedIn: [Ismaelg-Avilag](https://www.linkedin.com/in/)

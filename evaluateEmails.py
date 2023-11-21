@@ -41,6 +41,7 @@ def evaluate(nombre_carpeta):
     data_vec = obtener_contenido_archivos_en_subdirectorios(nombre_carpeta)
     vectorizer = joblib.load('vectorizador_entrenado.joblib')
     X = vectorizer.transform(data_vec).toarray()
+    X = X/100
     model = None
     with open('model.pkl', 'rb') as archivo:
         model = pickle.load(archivo)

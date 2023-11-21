@@ -58,10 +58,10 @@ If you have any questions or need further assistance, feel free to contact the p
 
 Ismael Avila
 - Email: ismaelg.avilag@gmail.com
-- GitHub: [Ismaelg-Avilag](https://github.com/ismaelg-avilag)
-- LinkedIn: [Ismaelg-Avilag](https://www.linkedin.com/in/ismaelg-avilag)
+- GitHub: [ismaelg-avilag](https://github.com/ismaelg-avilag)
+- LinkedIn: [Ismael Avila](https://www.linkedin.com/in/ismaelg-avilag)
 
-- Oscar Beltrán
+Oscar Beltrán
 - Email: 
-- GitHub: [Ismaelg-Avilag](https://github.com/oscar-200)
-- LinkedIn: [Ismaelg-Avilag](https://www.linkedin.com/in/)
+- GitHub: [oscar-200](https://github.com/oscar-200)
+- LinkedIn: [Oscar Beltrán](https://www.linkedin.com/in/)

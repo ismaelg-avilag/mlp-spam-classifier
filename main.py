@@ -16,7 +16,7 @@ class Ui_MainWindow(QtWidgets.QMainWindow, Ui_MainWindow):
         self.pushButtonSelectFiles.clicked.connect(self.select_directory)
 
     def open_github_repo(self):
-        repo_url = "https://github.com/ismaelg-avilag/spam-classifier"
+        repo_url = "https://github.com/ismaelg-avilag/mlp-spam-classifier"
         QDesktopServices.openUrl(QUrl(repo_url))
     
     def open_about_project_window(self):
